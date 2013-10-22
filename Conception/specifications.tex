@@ -1,0 +1,110 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\title{Spécifications du projet YARLIS\\- Yet Another Rogue-Like In Space -}
+\author{Maxime PATTYN \& François-Xavier Matthews}
+
+\begin{document}
+\maketitle
+
+\section{Principe}
+YARLIS se veux être un projet permettant de comprendre le processus de création d'un jeu.
+Le jeu sera donc un rogue-like, inspiré du jeu The Binding of Isaac, dans un univers futuriste, 
+où le joueur contrôle un chasseur de prime au cours de différentes missions.\\
+Dans ces missions, le joueur progresse dans des niveaux générés aléatoirement jusqu'à atteindre un boss
+qui est sa cible.\\
+Le jeu possèdera une composante RPG (sans quête) afin que le joueur puisse améliorer son personnage
+(vie, energie, oxygène, caractéristiques des armes, etc).
+
+
+\section{Maquette}
+
+A compléter
+
+
+\section{Caractéristiques du joueur}
+Les joueur disposera des barres suivantes :
+\begin{itemize}
+  \item Vie ; 
+  \item Energie (Munition des armes lourdes) ;
+  \item Oxygène (Pour les pièces sans oxygène).
+\end{itemize}
+
+
+\section{Armes}
+
+Les armes disponibles pour le joueur seront les suivantes.
+
+\subsection{Armes Légères}
+\begin{itemize}
+  \item Blaster : arme tirant de petit traits d'énergie ;
+  \item Couteau.
+\end{itemize}
+
+\subsection{Armes moyennes}
+\begin{itemize}
+  \item Shotgun ;
+  \item Fusil-Blaster ;
+  \item Fusil plasma ;
+  \item Epée énergétique.
+\end{itemize}
+
+\subsection{Armes Lourdes}
+\begin{itemize}
+  \item Lance-Roquettes ;
+  \item Minigun (Laser) ;
+  \item Laser Spartan ;
+  \item Lance-flamme.
+\end{itemize}
+
+\subsection{Améliorations}
+Le joueur pourra prendre une arme de chaque section sur lui. Ces armes seront améliorables sur 
+trois caractéristiques :
+\begin{itemize}
+  \item Vitesse de tir ;
+  \item Puissance de tir ;
+  \item Type de tir.
+\end{itemize}
+
+\section{Objets}
+
+Objets de remplissement des barres :
+\begin{itemize}
+  \item Medikits ;
+  \item Cellule énergétique ;
+  \item Recharge d'oxygène.
+\end{itemize}
+
+Autre objets :
+\begin{itemize}
+  \item Objets équivalents des clés : cartes magnétiques / kits de piratage ? ;
+  \item Cellule d'amélioration ;
+  \item etc.
+\end{itemize}
+
+Ces objets seront ramassés dans des caisses ou des coffres. Ces coffre seront à ouvrir avec une clé
+ou a casser avec une arme lourde explosive. Les ennemis peuvent aussi possiblement en lacher.
+
+\section{Ennemis}
+Les ennemis seront déterminés par les caractéristiques suivantes :
+\begin{itemize}
+  \item Vie ;
+  \item Vitesse / Puissance / Type d'attaque ;
+  \item Déplacements (vitesse / type) ;
+  \item Drops ;
+  \item IA (+- intelligente).
+\end{itemize}
+
+Les boss sont pour l'instant un ennemi commun plus puissant.
+
+\section{Environnement}
+Idées pour les environnements :
+\begin{itemize}
+  \item vitre pouvant être cassés, vidant l'oxygène de la pièce ;
+  \item pièges ;
+  \item pièces types (salles, couloirs, etc).
+\end{itemize}
+
+\end{document}
