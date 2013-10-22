@@ -1,9 +1,0 @@
-\documentclass{report}
-\usepackage[utf8]{inputenc}
-\usepackage[francais]{babel}
-
-\title{YARLIS}
-\author{Maxime Pattyn\\François-Xavier Matthews}
-\begin{document}
-
-\end{document}
