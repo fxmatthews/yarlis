@@ -23,7 +23,6 @@ public:
     virtual bool isDestroyed();
 
     // basic operations
-    Entity();
     bool isBulletProof() const;
     void setBulletProof(bool value);
     double getHp() const;

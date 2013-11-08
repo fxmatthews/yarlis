@@ -51,14 +51,6 @@ void Entity::setName(const std::string &value)
     name = value;
 }
 
-Entity::Entity()
-{
-    bulletProof = false;
-    hp = 0;
-    position = Position(0,0);
-    name = "Default_entity";
-}
-
 std::string Entity::toPrettyString(){
     std::stringstream ss;
     ss << "isBulletProof : ";

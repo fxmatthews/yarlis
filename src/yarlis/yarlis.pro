@@ -16,15 +16,17 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp \
-    position.cpp \
-    hitbox.cpp \
-    entity.cpp \
-    takeable.cpp \
-    object.cpp
+    entities/impl/position.cpp \
+    entities/impl/hitbox.cpp \
+    entities/impl/entity.cpp \
+    entities/impl/takeable.cpp \
+    entities/impl/object.cpp \
+    entities/impl/player.cpp
 
 HEADERS += \
-    position.h \
-    hitbox.h \
-    entity.h \
-    takeable.h \
-    object.h
+    entities/position.h \
+    entities/hitbox.h \
+    entities/entity.h \
+    entities/takeable.h \
+    entities/object.h \
+    entities/player.h

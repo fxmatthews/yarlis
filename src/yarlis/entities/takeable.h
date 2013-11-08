@@ -9,7 +9,6 @@
 class Takeable
 {
 public:
-    Takeable();
     virtual void take();
 };
 
